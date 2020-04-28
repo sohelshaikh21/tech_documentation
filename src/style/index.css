@@ -4,8 +4,12 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #navbar {
-      clear:both;  
-      visibility: hidden;
+      display:none;
+    }
+    #main-doc
+    {
+        margin-left:0% !important;
+        width:100% !important;
     }
 }
 body
@@ -38,7 +42,6 @@ li
 #navbar
 {
     float: left;
-    padding: 10px;
     width:30%;
     position:fixed;
     background-color: #f1f1f1;
